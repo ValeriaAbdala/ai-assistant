@@ -10,8 +10,7 @@ class Settings(BaseSettings):
     
     # Gemini Configuration
     gemini_api_key: str
-    gemini_model: str = "gemini-pro"
-    
+    gemini_model: str = "models/gemini-1.5-flash"    
     # Database
     database_url: str = "sqlite:///./pm_assistant.db"
     
