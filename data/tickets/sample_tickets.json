@@ -1,0 +1,64 @@
+{
+  "tickets": [
+    {
+      "id": "PROD-001",
+      "title": "Checkout fails with international credit cards",
+      "description": "Users with international cards cannot complete purchases. Error 'Payment Gateway Timeout' after 30 seconds.",
+      "type": "bug",
+      "severity": "critical",
+      "priority": "high",
+      "status": "open",
+      "assignee": "Maria González",
+      "reporter": "Carlos Medina",
+      "sprint": "Sprint 24",
+      "affected_customers": 47,
+      "revenue_impact": 23500,
+      "business_impact": "High - Direct loss of international sales"
+    },
+    {
+      "id": "PROD-002", 
+      "title": "Search returns incorrect results",
+      "description": "Product search algorithm returning irrelevant items since last deploy.",
+      "type": "bug",
+      "severity": "high",
+      "priority": "high",
+      "status": "in-progress",
+      "assignee": "Roberto Silva",
+      "reporter": "Ana Ruiz",
+      "sprint": "Sprint 24",
+      "affected_customers": 156,
+      "revenue_impact": 15200,
+      "business_impact": "Medium - Affects conversion and user experience"
+    },
+    {
+      "id": "SECU-001",
+      "title": "XSS vulnerability in contact forms",
+      "description": "Potential XSS vulnerability detected in contact forms and product comments.",
+      "type": "security",
+      "severity": "critical",
+      "priority": "critical",
+      "status": "in-progress",
+      "assignee": "Alejandro Ruiz",
+      "reporter": "Security Team",
+      "sprint": "Sprint 24",
+      "affected_customers": 0,
+      "revenue_impact": 0,
+      "business_impact": "Critical - Security and reputation risk"
+    },
+    {
+      "id": "PROD-007",
+      "title": "Shopping cart empties randomly",
+      "description": "Users report carts emptying after 30+ minutes of browsing. Session management issue suspected.",
+      "type": "bug",
+      "severity": "high",
+      "priority": "critical",
+      "status": "open",
+      "assignee": "Natalia Jiménez",
+      "reporter": "Andrés Muñoz",
+      "sprint": "Sprint 24",
+      "affected_customers": 178,
+      "revenue_impact": 34200,
+      "business_impact": "Critical - Direct sales loss and user frustration"
+    }
+  ]
+}

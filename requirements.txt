@@ -24,3 +24,13 @@ httpx==0.25.0
 
 # Development
 pytest==7.4.0
+
+# RAG Dependencies
+chromadb==0.4.24
+sentence-transformers==2.7.0
+
+# PDF Reports
+reportlab==4.0.7
+
+# Data processing (si no está ya)
+pandas>=2.0.0

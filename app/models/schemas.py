@@ -6,7 +6,7 @@ from datetime import datetime
 class ChatRequest(BaseModel):
     message: str
     user_id: Optional[str] = "default_user"
-    analysis_type: Optional[str] = "general"  # general, ticket_analysis, sales_correlation
+    analysis_type: Optional[str] = "auto"  # auto, impact_analysis, technical_solution, priority_analysis, team_optimization, correlation_analysis
 
 class ChatResponse(BaseModel):
     message: str
